@@ -50,7 +50,7 @@ img {
     font-style: normal;
     font-weight: 400;
     src: local("Actay"),
-        url("/fonts/Actay-Regular.otf") format("otf");
+        url("fonts/Actay-Regular.otf") format("otf");
 }
 
 @font-face {
@@ -58,12 +58,12 @@ img {
     font-style: normal;
     font-weight: 400;
     src: local("ActayWide"),
-        url("/fonts/ActayWide-Bold.otf") format("otf");
+        url("fonts/ActayWide-Bold.otf") format("otf");
 }
 
 body {
     font-family: "Actay", "Arial", sans-serif;
-    background: url(/img/backg.png) no-repeat center center fixed;
+    background: url(img/backg.png) no-repeat center center fixed;
     background-size: cover;
 }
 
